@@ -4,13 +4,11 @@
 
 🎓 UCL & Cambridge
 
-🙈 Physics | Data Science | AI | Quant Dev | Web3 Builder 
+🙈 Physics | Data Science | AI | Quant Researcher
 
 📍 Based in Shanghai
 
 🌐 Remote Friendly 
-
-📧 0xInco@proton.me
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
