@@ -1,19 +1,12 @@
-## 👋 Hi, I’m Inco
+# Hi, I'm Yuanzhen Zhao
 
-🆔 Short for Incognito
+💡 AI | Quantitative Research | Data Science
+📍 Shanghai | 🌐 Remote Friendly
 
-🎓 UCL & Cambridge
+---
 
-🙈 Physics | Data Science | AI | Quant Researcher
+## 📊 GitHub Stats
 
-📍 Based in Shanghai
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=yzhaolabs&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
-🌐 Remote Friendly 
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-%23000000?style=for-the-badge&&logo=rust&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-</div>
+![Metrics](/github-metrics.svg)
