@@ -1,8 +1,8 @@
 # Hi there >_<
 
-🎓 Physics | Data Science
+🎓 Physics & Data Science
 
-💡 Focus on AI & Quantitative Research & Crypto
+💡 Focus on AI & Quantitative Finance Research & Crypto
 
 ---
 
