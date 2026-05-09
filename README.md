@@ -2,7 +2,7 @@
 
 🎓 Physics & Data Science
 
-💡 Focus on AI & Quantitative Finance Research & Crypto
+💡 AI (ML/DL/Agents/A bit RL) · Quant Finance · Crypto
 
 ---
 
