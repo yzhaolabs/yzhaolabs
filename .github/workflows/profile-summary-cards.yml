@@ -1,0 +1,29 @@
+name: Update profile summary cards
+
+on:
+  schedule:
+    # 当前统计卡在 00:00 UTC 运行，这里错开 15 分钟
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # 直接复用已有的 PAT
+          GITHUB_TOKEN: ${{ secrets.STATS_PAT }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 8
+          THEME: transparent
+          AUTO_PUSH: true
