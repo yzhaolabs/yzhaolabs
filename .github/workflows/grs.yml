@@ -15,18 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Get current year
-        id: date
-        shell: bash
-        run: echo "year=$(date -u +%Y)" >> "$GITHUB_OUTPUT"
-
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&commits_year=${{ steps.date.outputs.year }}
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_PAT }}
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
@@ -34,9 +29,10 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=6
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_PAT }}
 
       - name: Commit cards
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
